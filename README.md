@@ -1,10 +1,11 @@
 # URJC excavation World ROS package
 
+The simulation enviroment is based on URJC Fuenlabrada Campus, where it is located this ground. This world could be used to create new algorithms in localization or navigation. 
+
 ![Gazebo01](docs/images/img_1.png)
 ![Gazebo02](docs/images/img_2.png)
 ![Gazebo00](docs/images/img_0.png)
 
-The simulation enviroment is based on URJC Fuenlabrada Campus, where it is located this ground. This world could be used to create new algorithms in localization or navigation. 
 
 # Include the world from another package
 
@@ -38,7 +39,7 @@ colcon build
 
 # run in ROS
 source install/setup.sh
-ros2 launch urjc_excavation_world urjc_excavation.launch.py gui:=true
+ros2 launch urjc_excavation_world urjc_excavation.launch.py
 ```
 
 <!-- # Building
