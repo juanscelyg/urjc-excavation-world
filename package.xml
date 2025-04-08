@@ -14,7 +14,8 @@
   <exec_depend>gz_plugin_vendor</exec_depend>
 
   <export>
-   <build_type>ament_cmake</build_type>
-   <gazebo_ros plugin_path="${prefix}/lib" gazebo_media_path="${prefix}" gazebo_model_path="${prefix}/models"/>
+    <build_type>ament_cmake</build_type>
+    <gazebo_ros gazebo_model_path="${prefix}/models"/>
+    <gazebo_ros gazebo_media_path="${prefix}/worlds"/>
   </export>
 </package>
