@@ -41,6 +41,11 @@ colcon build
 source install/setup.sh
 ros2 launch urjc_excavation_world urjc_excavation.launch.py
 ```
+There is another world with a few models to interact with. You can load it with the following command:
+
+```bash
+ros2 launch urjc_excavation_world urjc_excavation_msr.launch.py
+```
 
 <!-- # Building
 Include this as a .rosinstall dependency in your SampleApplication simulation workspace. `colcon build` will build this repository.

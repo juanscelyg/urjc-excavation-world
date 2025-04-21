@@ -18,6 +18,14 @@
                 <geometry>
                     <mesh><uri>model://blue_cube/meshes/blue_cube.dae</uri></mesh>
                 </geometry>
+                <surface>
+                    <friction>
+                    <ode>
+                        <mu>0.01</mu>
+                        <mu2>0.01</mu2>
+                    </ode>
+                    </friction>
+                </surface>
             </collision>
 
             <visual name="visual">

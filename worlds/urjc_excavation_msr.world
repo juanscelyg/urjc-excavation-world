@@ -83,7 +83,7 @@
         </include>
         <include>
             <uri>model://red_cube</uri>
-            <pose>5 -2 0 0 0 0</pose>
+            <pose>5 -3 0 0 0 0</pose>
         </include>
         <include>
             <uri>model://green_cube</uri>
@@ -91,7 +91,7 @@
         </include>
         <include>
             <uri>model://blue_cube</uri>
-            <pose>5 2 0 0 0 0</pose>
+            <pose>5 3 0 0 0 0</pose>
         </include>
     </world>
 </sdf>
