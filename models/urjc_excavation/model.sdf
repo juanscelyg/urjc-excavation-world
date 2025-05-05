@@ -15,8 +15,8 @@
                 <mu>0.7000000</mu>
                 <mu2>0.7000000</mu2>
                 <fdir1>0.000000 0.000000 1.000000</fdir1>
-                <slip1>0.350000</slip1>
-                <slip2>0.350000</slip2>
+                <slip1>0.0350000</slip1>
+                <slip2>0.0350000</slip2>
               </ode>
             </friction>
             <bounce>
