@@ -46,6 +46,18 @@ There is another world with a few models to interact with. You can load it with 
 ```bash
 ros2 launch urjc_excavation_world urjc_excavation_msr.launch.py
 ```
+# Lights and Shadows configuration
+
+For to obtain a better performance the shadows were disabled. If you want to enable them, you can do it in the file `urjc_excavation.world` or in  `urjc_excavation_msr.world` , modifying the line:
+
+```xml
+<cast_shadows>0</cast_shadows>
+```
+to
+
+```xml
+<cast_shadows>1</cast_shadows>
+```
 
 <!-- # Building
 Include this as a .rosinstall dependency in your SampleApplication simulation workspace. `colcon build` will build this repository.
