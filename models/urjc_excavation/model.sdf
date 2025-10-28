@@ -13,10 +13,10 @@
             <friction>
               <ode>
                 <mu>0.9000000</mu>
-                <mu2>0.9000000</mu2>
+                <mu2>0.1000000</mu2>
                 <fdir1>0.000000 0.000000 1.000000</fdir1>
-                <slip1>1.150000</slip1>
-                <slip2>1.150000</slip2>
+                <!-- <slip1>1.150000</slip1>
+                <slip2>1.150000</slip2> -->
               </ode>
             </friction>
             <bounce>
@@ -25,8 +25,8 @@
             </bounce>
             <contact>
               <ode>
-                <soft_cfm>0.9000000</soft_cfm>
-                <soft_erp>0.900000</soft_erp>
+                <soft_cfm>9.000000</soft_cfm>
+                <soft_erp>9.000000</soft_erp>
                 <kp>10000.000000</kp>
                 <kd>1.000000</kd>
                 <max_vel>100.000000</max_vel>
