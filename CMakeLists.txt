@@ -4,7 +4,7 @@ project(urjc_excavation_world)
 find_package(ros_gz_sim REQUIRED)
 find_package(ament_cmake_ros REQUIRED)
 
-install(DIRECTORY launch models worlds 
+install(DIRECTORY launch maps models worlds 
     DESTINATION share/${PROJECT_NAME}
 )
 
