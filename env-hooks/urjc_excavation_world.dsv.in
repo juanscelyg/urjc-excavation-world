@@ -1,2 +1,6 @@
-prepend-non-duplicate;GAZEBO_MODEL_PATH;share/urjc_excavation_world/models
-prepend-non-duplicate;GAZEBO_MODEL_PATH;share/urjc_excavation_world/worlds
+set;GZ_VERSION;@GZ_VERSION@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;@CMAKE_INSTALL_PREFIX@/share/@PROJECT_NAME@/models
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;@CMAKE_INSTALL_PREFIX@/share/@PROJECT_NAME@/worlds
+prepend-non-duplicate;GZ_SIM_SYSTEM_PLUGIN_PATH;@CMAKE_INSTALL_PREFIX@/lib
+
+prepend-non-duplicate;LD_LIBRARY_PATH;@CMAKE_INSTALL_PREFIX@/lib
